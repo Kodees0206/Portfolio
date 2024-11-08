@@ -1,0 +1,364 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="style.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="icon" href="./assets/K.png" type="image/x-icon">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=PT+Sans:wght@400;700&display=swap" rel="stylesheet" />
+  <script src="https://cdn.emailjs.com/dist/email.min.js"></script>
+<script type="text/javascript" src="https://cdn.emailjs.com/sdk/3.2.0/email.min.js"></script>
+<script>
+  (function(){
+     emailjs.init("_iiQucxC154oTplap");
+  })();
+</script>
+
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.14.0/devicon.min.css" />
+  <title>My Portfolio</title>
+  <meta name="description" content="My Portfolio" />
+</head>
+
+<body>
+  <header class="main-header">
+    <div class="main-header__logo-container">
+      <div class="main-header__logo-img-cont">
+        <img
+          src="./assets/pic.jpeg"
+          alt="logo Image" class="main-header__logo-img" />
+      </div>
+      <h4 class="main-header__logo-text"> Kodeeswaran M</h4>
+    </div>
+    <nav class="main-header__navigation">
+      <ul class="main-header__navigation-links">
+        <li class="main-header__navigation-link"><a href="./index.html"> Home </a></li>
+        <li class="main-header__navigation-link"><a href="./index.html#about"> About </a></li>
+        <li class="main-header__navigation-link">
+          <a href="./index.html#projects"> Projects </a>
+        </li>
+        <li class="main-header__navigation-link"><a href="./index.html#contact" href=""> Contact </a></li>
+      </ul>
+    </nav>
+    <div class="main-header__sm-scr-nav-btn">
+      <div class="main-header__sm-scr-nav-btn-line"></div>
+      <div class="main-header__sm-scr-nav-btn-line"></div>
+    </div>
+    <div class="main-header__sm-menu">
+      <div class="main-header__sm-menu-close">
+
+      </div>
+      <ul class="main-header__sm-menu-links">
+        <li>
+          <a class="main-header__sm-menu-link main-header__sm-menu-link--1" name="home-hero">Home</a>
+        </li>
+
+        <li>
+          <a class="main-header__sm-menu-link main-header__sm-menu-link--2" name="about">About</a>
+        </li>
+        <li>
+          <a class="main-header__sm-menu-link main-header__sm-menu-link--3" name="projects">Projects</a>
+        </li>
+        <li>
+          <a class="main-header__sm-menu-link main-header__sm-menu-link--4" name="contact">Contact</a>
+        </li>
+      </ul>
+    </div>
+     <a href=""></a><button onclick="viewResume()" class="btn btn-theme btn-sm">View Resume</button> 
+  </header>
+
+  <section id="home-hero" class="home-hero">
+    <div class="home-hero__content">
+      <div class="home-hero__info">
+        <h1 class="heading-primary home-hero__heading-primary">
+          <span class="heading-primary__sm"> Hello 👋</span>
+          <span class="heading-primary__main">
+            I'm Kodeeswaran! A Web Developer Building Awesome Webapps And Websites That Powers The Internet
+          </span>
+        </h1>
+      </div>
+    </div>
+  </section>
+  <section id="about" class="about main-section">
+    <div class="main-container">
+      <h2 class="heading-secondary projects__heading-secondary">
+        <span class="heading-secondary__sm"> About </span>
+        <span class="heading-secondary__main">
+          Enthusiastic and motivated Entry-Level Java Developer with a solid foundation in Java programming, Hibernate, and Spring Boot.
+      </h2>
+      <div class="main-section__content">
+        <div class="about__info">
+          <div class="about__main-info">
+            <h3 class="heading-quaternary about__heading-quaternary">
+              My Story
+            </h3>
+            <p class="text-primary about__text-primary">
+              <span>
+                Kodeeswaran M, an ambitious and motivated Java developer, embarked on a journey into the tech world with a foundation in Java and a passion for learning. His proficiency with frameworks like Hibernate and Spring Boot, combined with front-end skills in HTML, CSS, and JavaScript, allowed him to tackle projects confidently. 
+              </span>
+              <span>
+                From developing a Rest API for employee management to crafting a ticket tracker and a Todo list app, he consistently honed his skills. With aspirations to grow professionally, Kodeeswaran seeks mentorship and collaborative environments to enhance his technical acumen.
+              </span>
+              <span>
+                 Beyond coding, his leadership in college clubs and his achievements in sports and dance underscore his well-rounded character.
+              </span>
+            </p>
+            
+          </div>
+          <div class="about__skill-info">
+            <h3 class="heading-quaternary about__heading-quaternary">
+              My Skills
+            </h3>
+            <ul class="about__skills">
+              <li class="about__skill">Java</li>
+              <li class="about__skill">MySQL</li>
+              <li class="about__skill">Spring-Boot</li>
+              <li class="about__skill">Swagger</li>
+              <li class="about__skill">Postman</li>
+              <li class="about__skill">HTML</li>
+              <li class="about__skill">CSS</li>
+              <li class="about__skill">JavaScript</li>
+              <li class="about__skill">React.Js</li>
+              <li class="about__skill">Node</li>
+              <li class="about__skill">Git</li>
+              <li class="about__skill">VScode</li>
+              <li class="about__skill">Eclipse</li> 
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="skills-showcase">
+    
+    <ul class="skills-showcase__list">
+      <li class="skills-showcase__list-item">
+        <i class="devicon-java-plain"></i>
+      </li>
+      <li class="skills-showcase__list-item">
+        <i class="devicon-spring-plain"></i>
+      </li>
+      <li class="skills-showcase__list-item">
+        <i class="devicon-html5-plain"></i>
+      </li>
+      <li class="skills-showcase__list-item">
+        <i class="devicon-css3-plain"></i>
+      </li>
+      <li class="skills-showcase__list-item">
+        <i class="devicon-javascript-plain"></i>
+      </li>
+      <li class="skills-showcase__list-item">
+        <i class="devicon-react-original"></i>
+      </li>
+     
+      <li class="skills-showcase__list-item">
+        <i class="devicon-nodejs-plain"></i>
+      </li>
+      <li class="skills-showcase__list-item">
+        <i class="devicon-git-plain"></i>
+      </li>
+    </ul>
+  </section>
+  <section id="projects" class="projects main-section">
+    <div class="main-container">
+      <h2 class="heading-secondary projects__heading-secondary">
+        <span class="heading-secondary__sm"> Projects </span>
+        <span class="heading-secondary__main">
+          Here you will find some of the personal projects that I created with the project details
+        </span>
+      </h2>
+      <div class="main-section__content">
+        <div class="projects__list">
+          <div class="projects__list-item">
+            <div class="projects__list-item-count">
+              <span class="projects__list-item-count-num"> 1 </span>
+              <span class="projects__list-item-count-line"> </span>
+              <span class="projects__list-item-count-end-dot"> </span>
+            </div>
+            <div class="projects__list-item-details">
+              <div class="projects__list-item-img-cont">
+                <img src="./assets/emp.jpg" alt="Project Image" class="projects__list-item-img" />
+              </div>
+              <h3 class="heading-tertiary projects__list-item-heading-tertiary">
+                Employee Management Rest API Application
+              </h3>
+            
+
+              <p class="text-primary projects__list-item-text-primary">
+                <span>
+                  Developed a Rest API application for managing employee records, including functionalities for adding, updating, deleting, and viewing employee records.
+                </span>
+                
+                <span>
+                  Implemented role-based access control using Spring Security, where only users with the role "admin" have permissions to add roles, users, and employees, while users with the role "user" can only view employee records. <br>
+                  Technologies used: Java, JPA, Spring Boot, Spring Security, MySQL, RESTful API, Swagger
+                </span>
+              </p>
+              
+              <a href="https://github.com/Kodees0206/SpringBootSecurity"><button class="btn btn-inv projects__btn-inv">Code Link</button></a>
+            </div>
+          </div>
+          <div class="projects__list-item projects__list-item--inv">
+            <div class="projects__list-item-details">
+              <div class="projects__list-item-img-cont">
+                <img src="./assets/todo.jpg" alt="Project Image" class="projects__list-item-img" />
+              </div>
+              <h3 class="heading-tertiary projects__list-item-heading-tertiary">
+                Todo List
+              </h3>
+             
+
+              <p class="text-primary projects__list-item-text-primary">
+                <span>
+                 Developed a Rest API application to manage employees Todo list like adding, updating and deleting the task, using Spring Boot, MySQL for data storage and React.js.
+                </span>
+                
+                <span>
+                  Technologies used: Java, JPA, Spring Boot, MySQL, RESTful API, React.js , CSS
+                </span>
+              </p>
+              <a href="https://github.com/Kodees0206/ToDo"><button class="btn btn-inv projects__btn-inv">Code Link</button></a>
+
+            </div>
+            <div class="projects__list-item-count">
+              <span class="projects__list-item-count-num"> 2 </span>
+              <span class="projects__list-item-count-line"> </span>
+              <span class="projects__list-item-count-end-dot"> </span>
+            </div>
+          </div>
+          <div class="projects__list-item">
+            <div class="projects__list-item-count">
+              <span class="projects__list-item-count-num"> 3 </span>
+              <span class="projects__list-item-count-line"> </span>
+              <span class="projects__list-item-count-end-dot"> </span>
+            </div>
+            <div class="projects__list-item-details">
+              <div class="projects__list-item-img-cont">
+                <img src="./assets/portfolio.jpg" alt="Project Image" class="projects__list-item-img" />
+              </div>
+              <h3 class="heading-tertiary projects__list-item-heading-tertiary">
+                 Portfolio
+              </h3>
+
+              <p class="text-primary projects__list-item-text-primary">
+                <span>
+                  Developed a fully responsive and interactive personal portfolio to showcase my skills, projects, and experience as a web developer. The portfolio is designed to provide a seamless user experience across all devices, featuring sections such as about me, skills, projects, and contact.
+                </span>
+                
+                <span>
+                  Technologies used:HTML, CSS, JavaScript, Bootstrap5, Responsive Web Design
+                </span>
+              </p>
+              <a href="https://github.com/Kodees0206/Portfolio"><button class="btn btn-inv projects__btn-inv">Code Link</button></a>
+              
+            </div>
+          </div>
+          <div class="projects__list-item projects__list-item--inv">
+            <div class="projects__list-item-details">
+              <div class="projects__list-item-img-cont">
+                <img src="./assets/coffee.jpg" alt="Project Image" class="projects__list-item-img" />
+              </div>
+              <h3 class="heading-tertiary projects__list-item-heading-tertiary">
+                Coffee Shop 
+              </h3>
+
+              <p class="text-primary projects__list-item-text-primary">
+                <span>
+                  Developed a fully responsive and interactive coffee website. The website is designed to provide a seamless user experience across all devices, featuring sections such as menu, cart, about and contact.
+                </span>
+                
+                <span>
+                   Technologies used:Java, JPA, Spring Boot, MySQL, RESTful API, React.js , CSS Bootstrap5, Responsive Web Design
+                </span>
+              </p>
+              <a href="https://github.com/Kodees0206/Coffee-Shop"><button class="btn btn-inv projects__btn-inv">Code Link</button></a>
+              
+            </div>
+            <div class="projects__list-item-count">
+              <span class="projects__list-item-count-num"> 4 </span>
+              <span class="projects__list-item-count-line"> </span>
+              <span class="projects__list-item-count-end-dot"> </span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section id="contact" class="contact main-section">
+    <div class="main-container">
+      <h2 class="heading-secondary">
+        <span class="heading-secondary__sm"> Contact </span>
+        <span class="heading-secondary__main">
+          Feel free to Contact me and I will get back to you as soon as possible
+        </span>
+      </h2>
+      <section id="contact" class="contact main-section">
+  <div class="main-container">
+    <h2 class="heading-secondary">
+      <span class="heading-secondary__sm"> Contact </span>
+      <span class="heading-secondary__main">
+        Feel free to reach out to me via email at the address below.
+      </span>
+    </h2>
+    <div class="contact__info">
+      <p class="contact__email">
+        You can contact me at <a href="mailto:kodeeswaran.chml0206@gmail.com">Kodeeswaran M 👈</a>
+      </p>
+    </div>
+  </div>
+</section>
+
+    </div>
+  </section>
+  <footer class="main-footer">
+    <div class="main-footer__upper">
+      <div class="main-container">
+        <ul class="main-footer__links">
+          <li class="main-footer__link">
+            <a href="./index.html">Home</a>
+          </li>
+          <li class="main-footer__link">
+            <a href="./index.html#about">About</a>
+          </li>
+          <li class="main-footer__link">
+            <a href="./index.html#projects">Projects</a>
+          </li>
+          <li class="main-footer__link">
+            <a href="./index.html#contact">Contact</a>
+          </li>
+        </ul>
+        <div class="main-footer__mid-line"></div>
+        <div class="main-footer__socials">
+          <a href="https://github.com/Kodees0206" class="main-footer__social-link">
+            <img
+              src="https://d33wubrfki0l68.cloudfront.net/5557d5a11584d7201a38ee1a95200f57a4cc0f88/15085/assets/png/github-ico.png"
+              alt="" class="main-footer__social-link-icon" />
+          </a>
+          <a href="https://www.instagram.com/i_am_kodees_senthil/" class="main-footer__social-link">
+            <img src="./assets/icons8-instagram-48.png" alt="" class="main-footer__social-link-icon" />
+          </a>
+         
+          <a href="https://www.linkedin.com/in/kodeeswaranm/" class="main-footer__social-link">
+            <img
+              src="https://d33wubrfki0l68.cloudfront.net/7f29579dde49e02480372aa49f7189c5536b0118/34b92/assets/png/linkedin-ico.png"
+              alt="" class="main-footer__social-link-icon" />
+          </a>
+         
+        </div>
+      </div>
+    </div>
+    <div class="main-footer__bottom">
+      <div class="main-container">
+        <p class="main-footer__bottom-txt">
+          &copy; All rights owned by kodeeSenthil 2024
+        </p>
+      </div>
+    </div>
+  </footer>
+  <script src="./script.js"></script>
+</body>
+
+</html>
